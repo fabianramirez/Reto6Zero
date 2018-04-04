@@ -1,0 +1,39 @@
+@media print {
+.mr-md-3,
+#non-printable {
+    display: none !important;
+}
+#printable {
+    display: block;
+}
+.border-top,
+#non-printable {
+    display: none !important;
+}
+#printable {
+    display: block;
+}
+.button,
+#non-printable {
+    display: none !important;
+}
+#printable {
+    display: block;
+}
+.col-lg-5,
+#non-printable {
+    display: none !important;
+}
+#printable {
+    display: block;
+}
+
+@media print {
+
+  @page{
+
+    margin: 0;
+
+  }
+
+}
